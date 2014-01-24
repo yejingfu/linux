@@ -1,0 +1,13 @@
+# This is the "Make.defines" file that almost every "Makefile" in the
+# source directories below this directory include.
+# The "../" in the pathnames actually refer to this directory, since
+# "make" is executed in all the subdirectories of this directory.
+#
+# System = i386-apple-darwin12.5.0
+
+CC = gcc
+CFLAGS = -I../lib -g -O2 -D_REENTRANT -Wall
+LIBS = ../libunp.a -lresolv -lpthread
+
+CLEANFILES = core core.* *.core *.o temp.* *.out typescript* \
+		*.lc *.lh *.bsdi *.sparc *.uw
