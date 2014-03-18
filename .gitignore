@@ -1,0 +1,29 @@
+# sublime project settings
+*.sublime-project
+*.sublime-workspace
+
+# Object files
+*.o
+*.ko
+
+# Libraries
+*.lib
+*.a
+
+# Shared objects (inc. Windows DLLs)
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# project file
+*.cbp
+
+# generated folders
+bin/
+obj/

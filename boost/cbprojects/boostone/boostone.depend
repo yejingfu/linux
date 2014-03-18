@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1395068520 source:/home/jeffye/github/yejingfu/linux/boost/cbprojects/boostone/main.cpp
+	<boost/lambda/lambda.hpp>
+	<iostream>
+	<iterator>
+	<algorithm>
+
