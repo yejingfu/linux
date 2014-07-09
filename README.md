@@ -3,7 +3,9 @@
 
 ## debug by GDB
 * Resource:
+
 ** [Command Cheat Sheet](http://www.yolinux.com/TUTORIALS/GDB-Commands.html)
+
 ** [Example](http://www.ibm.com/developerworks/linux/library/l-gdb/)
 
     build the hello/eg1.c by gcc WITH -g option:
